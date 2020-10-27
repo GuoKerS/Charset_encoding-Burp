@@ -14,7 +14,7 @@ IIS+ASP.NET勉强能用
 
 支持列表如下
 Target |Post</br>(application/x-www-form-urlencoded)|Note(s)
--|:-:|-:
+-|:-:|:-:
 Nginx,uWSGI-Django-Python3 | IBM037, IBM500, cp875, IBM1026, IBM273|[x] query string and body were encoded</br>[x] url-decoded parameters in query string and body afterwards</br>[x] equal sign and ampersand needed to be encoded as well (no url-encoding
 Nginx,uWSGI-Django-Python2|IBM037, IBM500, cp875, IBM1026, utf-16, utf-32, utf-32BE, IBM424|[x] query string and body were encoded</br>[x] url-encoded parameters in query string and body</br>[x] equal sign and ampersand should not be encoded in any way
 Apache-TOMCAT8-JVM1.8-JSP|IBM037, IBM500, IBM870, cp875, IBM1026, IBM01140, IBM01141, IBM01142, IBM01143, IBM01144, IBM01145, IBM01146, IBM01147, IBM01148, IBM01149, utf-16, utf-32, utf-32BE, IBM273, IBM277, IBM278, IBM280, IBM284, IBM285, IBM290, IBM297, IBM420, IBM424, IBM-Thai, IBM871, cp1025|[x] query string in its original format (not encoded – could be url- encoded as usual)</br>[x] equal sign and ampersand should not be encoded in any way</br>[x] body could be sent with/without url-encoding
