@@ -6,8 +6,8 @@
 ![enter description here](https://photo.o0o0.club/Charset_encoding_converter__Burp插件/wafg01.gif)
 
 不通用
-Nginx+php	 No
-Apache+php	 No
+Nginx+php	 No</br>
+Apache+php	 No</br>
 IIS+ASP.NET勉强能用
 
 中文无解（比如上传场景）。。。
